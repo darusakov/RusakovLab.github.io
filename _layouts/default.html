@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+  <div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    <script>
+      //JS adds .active-tab class to the currently selected menu item (.page-link)
+      const pageLinks = document.querySelectorAll('.page-link');
+
+      // Function to highlight the active link based on the current page URL
+      function highlightActiveLink() {
+        const currentPagePath = window.location.pathname;
+
+        pageLinks.forEach((link) => {
+          if (link.href.endsWith(currentPagePath)) {
+            link.classList.add('active-tab');
+          } else {
+            link.classList.remove('active-tab');
+          }
+        });
+      }
+
+      // Highlight the active link on initial page load
+      highlightActiveLink();
+
+      // Add event listener to highlight the clicked link
+      pageLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          // Remove 'active-tab' class from all links before adding it to the clicked link
+          pageLinks.forEach((link) => link.classList.remove('active-tab'));
+          link.classList.add('active-tab');
+        });
+      });
+    </script>
+
+  </body>
+
+</html>

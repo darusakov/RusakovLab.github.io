@@ -1,0 +1,65 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <!--
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            <!--
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            -->
+            <!--
+            <li><a href="{{ site.baseurl }}/contact.html" class="contact-us">Contact Us</a></li>
+            -->
+            <li class="contact-us" onclick="openEmailClient()">Contact Us</li>
+        </ul>
+      </div>
+
+      <script>
+        function openEmailClient() {
+          function oES() {
+            var empty = '' + ' ' + String.fromCharCode(32); 
+            return empty.trim();
+          }
+
+          function genEmail() {
+            var user = 'sav'+oES()+'tch'+oES()+'enko';
+            var s1 = String.fromCharCode(64);
+            var s2 = String.fromCharCode(46);
+            var domain = 'ya'+oES()+'hoo' + s2 + 'com';
+            return user + s1 + oES() + domain;
+          }
+
+          window.location.href = 'mailto:' + genEmail();
+        }
+      </script>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p class="rss-subscribe">Subscribe to <a href="{{ "feed.xml" | relative_url }}"> updates via RSS</a></p>
+<!--
+        <p>{{- site.description | escape -}}</p>
+-->
+      </div>
+    </div>
+
+  </div>
+
+</footer>

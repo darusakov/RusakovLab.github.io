@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title and page.url != "/" -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+{%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading" id="news">{{ page.list_title | default: "News" }}</h2>
+  <table class="post-list">
+    <tbody>
+    {%- for post in site.posts -%}
+      <tr>
+        <td>
+          {%- assign date_format = site.minima.date_format | default: "%-d %B %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </td>
+        <td>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </td>
+      </tr>
+    {%- endfor -%}
+    </tbody>
+  </table>
+{%- endif -%}
+
+</div>
