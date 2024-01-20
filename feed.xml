@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-01-20T08:10:45-06:00</updated><id>/feed.xml</id><title type="html">Neuroalgebra</title><subtitle></subtitle><entry><title type="html">NSG integration</title><link href="/update/2023/11/23/news.html" rel="alternate" type="text/html" title="NSG integration" /><published>2023-11-23T17:01:31-06:00</published><updated>2023-11-23T17:01:31-06:00</updated><id>/update/2023/11/23/news</id><content type="html" xml:base="/update/2023/11/23/news.html"><![CDATA[<p>We are excited to report that we are working with
+<a href="https://www.nsgportal.org/overview.html">Neuroscience Gateway - a portal for computational Neuroscience -</a>
+to perform computations on their <a href="https://en.wikipedia.org/wiki/High-performance_computing">HPC</a> 
+supercomputer.</p>
+
+<p>When the integration is complete our users will be able to benefit from supercomputer resources in the cloud!</p>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[We are excited to report that we are working with Neuroscience Gateway - a portal for computational Neuroscience - to perform computations on their HPC supercomputer.]]></summary></entry><entry><title type="html">BRAINCELL released</title><link href="/update/2023/05/20/news.html" rel="alternate" type="text/html" title="BRAINCELL released" /><published>2023-05-20T18:01:31-05:00</published><updated>2023-05-20T18:01:31-05:00</updated><id>/update/2023/05/20/news</id><content type="html" xml:base="/update/2023/05/20/news.html"><![CDATA[<p><a href="/braincell.html"><strong>BRAINCELL</strong></a> is our new simulation environment 
+which adds a lot of functionality to popular NEURON software. It is
+available on <a href="https://github.com/RusakovLab/BrainCell">BRAINCELL@GitHub</a>.</p>
+
+<p>Its documentation is avaiable <a href="/documents.html">here too</a>.</p>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[BRAINCELL is our new simulation environment which adds a lot of functionality to popular NEURON software. It is available on BRAINCELL@GitHub.]]></summary></entry><entry><title type="html">Arachne 2.0</title><link href="/update/2022/09/11/news.html" rel="alternate" type="text/html" title="Arachne 2.0" /><published>2022-09-11T18:01:31-05:00</published><updated>2022-09-11T18:01:31-05:00</updated><id>/update/2022/09/11/news</id><content type="html" xml:base="/update/2022/09/11/news.html"><![CDATA[<p><a href="/arachne.html"><strong>ARACHNE</strong></a> is a newly designed simulation environment 
+in which neural and neuroglial network organisation, optimisation and 
+execution take advantage of the preset, optimised parallel algorithms
+for remote computations, and of a friendly user interface located on
+a local computer.</p>
+
+<p>The key advantage of <a href="/arachne.html"><strong>ARACHNE</strong></a> is that it enables 
+creation and operation of complex neuronal-astroglial networks, with 
+a simple and intuitive GUI, by neuroscientists unfamiliar with complex
+programming and computational environment.</p>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[ARACHNE is a newly designed simulation environment in which neural and neuroglial network organisation, optimisation and execution take advantage of the preset, optimised parallel algorithms for remote computations, and of a friendly user interface located on a local computer.]]></summary></entry><entry><title type="html">Astro 2.0</title><link href="/update/2021/10/15/news.html" rel="alternate" type="text/html" title="Astro 2.0" /><published>2021-10-15T18:01:31-05:00</published><updated>2021-10-15T18:01:31-05:00</updated><id>/update/2021/10/15/news</id><content type="html" xml:base="/update/2021/10/15/news.html"><![CDATA[<p>ASTRO 2.0. Interactive realistic model of protoplasmic astrocyte.</p>
+
+<p>The simulation tool <a href="/astro.html"><strong>ASTRO</strong></a> helps to evaluate the 
+multi-scale morphology of astroglia and to create a realistic, multi-compartmental biophysical 
+model of an astrocyte that could be explored using <a href="https://www.neuron.yale.edu/neuron/">NEURON</a> 
+computational environment.</p>
+
+<p>Running Astro requires:</p>
+
+<ol>
+  <li>Host computer with MATLAB (2012 version or later).</li>
+  <li>NEURON (7.2 or later) under Windows 7 or Windows 10.</li>
+  <li>Fast internet connections to work with GUI on Amazon cloud.</li>
+  <li>Putty: a free SSH and Telnet client.</li>
+  <li>Xming X Server for Windows.</li>
+</ol>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[ASTRO 2.0. Interactive realistic model of protoplasmic astrocyte.]]></summary></entry><entry><title type="html">Amazon integration</title><link href="/update/2020/01/10/news.html" rel="alternate" type="text/html" title="Amazon integration" /><published>2020-01-10T17:01:31-06:00</published><updated>2020-01-10T17:01:31-06:00</updated><id>/update/2020/01/10/news</id><content type="html" xml:base="/update/2020/01/10/news.html"><![CDATA[<p>What’s new since 1.0 versions (12/11/2019):</p>
+
+<ol>
+  <li>The user now can operate with Amazon Web Service  (AWS)</li>
+  <li>Introduce a new  GUI (Xming) for working with a remote Amazon cluster.</li>
+  <li>Improved performance of <strong>ARACHNE</strong> for massive neural networks (over 50,000 neurons) and <strong>Astro</strong> for astrocytes with complex geometry, equipped with detailed biophysical mechanisms.</li>
+  <li>Support user-defined <code class="language-plaintext highlighter-rouge">platforms</code> array in the definition of the <strong>ARACHNE</strong> parameter.</li>
+  <li>Plus assorted bug fixes and improvements.</li>
+</ol>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[What’s new since 1.0 versions (12/11/2019):]]></summary></entry><entry><title type="html">Neuroalgebra founded</title><link href="/update/2016/09/27/news.html" rel="alternate" type="text/html" title="Neuroalgebra founded" /><published>2016-09-27T13:00:00-05:00</published><updated>2016-09-27T13:00:00-05:00</updated><id>/update/2016/09/27/news</id><content type="html" xml:base="/update/2016/09/27/news.html"><![CDATA[<p>Neuroalgebra Ltd was registered on 26 September 2016 in England UK, Reg. No. 10395354</p>]]></content><author><name></name></author><category term="update" /><summary type="html"><![CDATA[Neuroalgebra Ltd was registered on 26 September 2016 in England UK, Reg. No. 10395354]]></summary></entry></feed>
