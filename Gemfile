@@ -32,4 +32,3 @@ gem "http_parser.rb", "0.8.0"
 #, :platforms => [:jruby]
 
 gem "eventmachine", "1.2.0.1"
-gem "rb-fsevent"
