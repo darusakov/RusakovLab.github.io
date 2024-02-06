@@ -64,105 +64,47 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><!--
-- [Introduction](#introduction)
-- [Tools](#tools)
-- [News](#news)
--->
+        <div class="home"><h2>Neuroalgebra is a portal for brain cell computations with stochasticity and 3D environment.</h2>
 
-<h1 id="introduction">Introduction</h1>
+<p><!-- Container for all three tools with videos --></p>
+<div class="tools-container">
 
-<p><strong>Neuroalgebra is a set of computational tools and methods that help researchers understand how 
-brain works</strong> (be it a healthy one or not). Our approach is physical research of neuronal, astroglial, 
-and cell-network mechanisms in the brain. (Modeling neural functions using AI is outside of our interests.)</p>
+    <!-- ASTRO -->
+    <div class="video-container" onclick="location.href='/astro.html'">
+      <div class="video-text">
+        <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes based on 3D two-photon and EM data</p>
+      </div>
+      <video loop="" autoplay="" muted="">
+        <source src="assets/Astro.mp4" type="video/mp4" />
+        Your browser does not support MP4 videos.
+      </video>
+    </div>
 
-<p><strong>To access the latest cutting-edge versions of our tools (ahead of github versions) please 
-<a href="https://forum.neuroalgebra.net" target="_blank">[LOGIN]</a>.</strong></p>
+    <!-- BRAINCELL -->
+    <div class="video-container" onclick="location.href='/braincell.html'">
+      <div class="video-text">
+      <p><strong><h3>BRAINCELL</h3></strong> simulates realistic brain cells with stochastic nano-properties and interactive 3D environment</p>
+      </div>
+      <br /><br />
+      <video loop="" autoplay="" muted="">
+        <source src="assets/BrainCellSpine.mp4" type="video/mp4" />
+        Your browser does not support MP4 videos.
+      </video>
+    </div>
 
-<h1 id="tools">Tools</h1>
-
-<ol>
-  <li>
-    <div style="width: 40%; float: left; margin-right: 5px;"><img src="assets/astro.jpg" alt="Astro" /></div>
-    <!--![](assets/astro.jpg)-->
-    <p><a href="/astro.html"><strong>ASTRO</strong></a>
-builds a simulated multi-compartmental astrocyte model that
-can be biophysically interrogated in the <a href="https://www.neuron.yale.edu/neuron/">NEURON</a> 
-computational environment.</p>
-    <div style="clear: both;"></div>
-    <p><br /></p>
-  </li>
-  <li>
-    <div style="width: 30%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne" /></div>
-    <!--![](assets/neurons.jpg)-->
-    <p><br /><a href="/arachne.html"><strong>ARACHNE</strong></a> 
-is a simulation environment to build and explore complex cellular 
-networks using the logic of <a href="https://www.neuron.yale.edu/neuron/">NEURON</a>.</p>
-    <div style="clear: both;"></div>
-    <p><br /></p>
-  </li>
-  <li>
-    <div style="width: 40%; float: left; margin-right: 5px;"><img src="assets/neurons.jpg" alt="Braincell" /></div>
-    <!--![](assets/neurons.jpg)-->
-    <p><a href="/braincell.html"><strong>BRAINCELL</strong></a> is your gateway to understanding 
-the intricate world of brain cells. It is a wrapper around a popular
-<a href="https://www.neuron.yale.edu/neuron/">NEURON</a> software and significantly
-extends its capabilities.</p>
-    <div style="clear: both;"></div>
-  </li>
-</ol>
-
-<blockquote>
-  <p><br />
-All software packages are available for free download, installation, and exploration under MIT licence.
-<br />
- </p>
-</blockquote>
-
-<!--
-Because exploration of realistic cell or networks models often requires significant 
-computational resources, Neuroalgebra provides an option enabling ASTRO, ARACHNE and 
-NEURON-platforms to run using Amazon computer cloud services (AWS). Currently, users 
-registered at Neuroalgebra can run softwares for free on their local computer or pay 
-directly to Amazon for their computing services if they use the AWS. 
-
-_The website and its facilities are under continued development. Further T&C explanations pertinent to the payment options for cloud computing will be added imminently. We are developing more tools to make your brain cell and network models to work with the cloud - these will be added later on_
--->
-
-<h2 class="post-list-heading" id="news">News</h2>
-  <table class="post-list">
-    <tbody><tr>
-        <td><span class="post-meta">23 November 2023</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2023/11/23/news.html">NSG integration</a></td>
-      </tr><tr>
-        <td><span class="post-meta">20 May 2023</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2023/05/20/news.html">BRAINCELL released</a></td>
-      </tr><tr>
-        <td><span class="post-meta">11 September 2022</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2022/09/11/news.html">Arachne 2.0</a></td>
-      </tr><tr>
-        <td><span class="post-meta">15 October 2021</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2021/10/15/news.html">Astro 2.0</a></td>
-      </tr><tr>
-        <td><span class="post-meta">10 January 2020</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2020/01/10/news.html">Amazon integration</a></td>
-      </tr><tr>
-        <td><span class="post-meta">27 September 2016</span>
-        </td>
-        <td>
-          <a class="post-link" href="/update/2016/09/27/news.html">Neuroalgebra founded</a></td>
-      </tr></tbody>
-  </table></div>
+    <!-- ARACHNE -->
+    <div class="video-container" onclick="location.href='/arachne.html'">
+      <div class="video-text">
+        <p><strong><h3>ARACHNE</h3></strong> simulates spiking neuronal networks with volume transmission</p>
+      </div>
+      <br /><br />
+      <video loop="" autoplay="" muted="">
+        <source src="assets/Arachne.mp4" type="video/mp4" />
+        Your browser does not support MP4 videos.
+      </video>
+    </div>
+  </div>
+</div>
 
       </div>
     </main><footer class="site-footer h-card">
@@ -205,14 +147,13 @@ _The website and its facilities are under continued development. Further T&C exp
         }
       </script>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/RusakovLab"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">RusakovLab</span></a></li></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
 </div>
 
       <div class="footer-col footer-col-3">
-        <p class="rss-subscribe">Subscribe to <a href="/feed.xml"> updates via RSS</a></p>
-<!--
-        <p></p>
--->
+<!--        <p></p> -->
+<div><strong>This portal is a research team project at Queen Square Institute of Neurology, 
+University College London.</strong></div><div>It is a free-access resource for neuroscientists and neurologists that either were or are currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
       </div>
     </div>
 
