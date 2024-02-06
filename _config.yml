@@ -25,7 +25,7 @@ baseurl: "/" # the subpath for https://drmuttik.github.io/neuroalgebra
 #baseurl: "" # for local testing and final deployment
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: neuroalgebra
-github_username: RusakovLab
+#github_username: RusakovLab
 logo: "/assets/logoB200.png"
 
 # Build settings
