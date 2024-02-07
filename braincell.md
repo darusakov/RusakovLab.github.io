@@ -12,8 +12,7 @@ intricate complexities.
 At its core, **BRAINCELL** enhances the renowned [NEURON](https://www.neuron.yale.edu/neuron/) simulation environment, introducing advanced features like inter-cellular interactions, 
 spatially variant parameters, the incorporation of external influences, and the integration of stochastic elements, thus broadening the horizons of computational neuroscience.
 
-Dive into the **BRAINCELL** experience! Comprehensive guides are available to facilitate your journey, whether you prefer a [step-by-step tutorial on GitHub](https://github.com/Rusakovlab/BrainCell) 
-or our detailed [documentation]({% link documents.md %}).
+Dive into the **BRAINCELL** experience! Comprehensive guides are available to facilitate your journey: [step-by-step tutorial on GitHub](https://github.com/Rusakovlab/BrainCell).
 
 #### Key Features
 

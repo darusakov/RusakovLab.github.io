@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+<body>
   <div class="background">
     <span></span>
     <span></span>
@@ -33,36 +33,53 @@
 
     {%- include footer.html -%}
 
-    <script>
-      //JS adds .active-tab class to the currently selected menu item (.page-link)
-      const pageLinks = document.querySelectorAll('.page-link');
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const pageLinks = document.querySelectorAll('.page-link');
 
-      // Function to highlight the active link based on the current page URL
-      function highlightActiveLink() {
-        const currentPagePath = window.location.pathname;
-
-        pageLinks.forEach((link) => {
-          if (link.href.endsWith(currentPagePath)) {
-            link.classList.add('active-tab');
-          } else {
-            link.classList.remove('active-tab');
-          }
-        });
+  // Function to update active-tab class based on the current page
+  function updateActiveTab() {
+    const currentPagePath = window.location.pathname;
+    pageLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPagePath) {
+        link.classList.add('active-tab');
+      } else {
+        link.classList.remove('active-tab');
       }
+    });
+  }
 
-      // Highlight the active link on initial page load
-      highlightActiveLink();
+  // Initial update of active-tab class
+  updateActiveTab();
 
-      // Add event listener to highlight the clicked link
-      pageLinks.forEach((link) => {
-        link.addEventListener('click', () => {
-          // Remove 'active-tab' class from all links before adding it to the clicked link
-          pageLinks.forEach((link) => link.classList.remove('active-tab'));
-          link.classList.add('active-tab');
-        });
-      });
-    </script>
+  // Add click event listener to all links
+  pageLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      const href = link.getAttribute('href');
+      const isExternalLink = link.classList.contains('external-link');
 
-  </body>
+      // Update active-tab class after navigation
+      if (!isExternalLink) {
+        // Prevent default behavior for internal links
+        event.preventDefault();
+        // Navigate to the URL in the same tab for internal links
+        window.location.href = href;
+
+        // Remove 'active-tab' class from all links
+        pageLinks.forEach(link => link.classList.remove('active-tab'));
+        // Add 'active-tab' class to the clicked link after a short delay
+        setTimeout(() => link.classList.add('active-tab'), 100);
+      } else {
+        // Prevent default behavior for external links
+        event.preventDefault();
+        // Open external link in a new tab
+        window.open(href, '_blank');
+      }
+    });
+  });
+});
+</script>
+
+</body>
 
 </html>

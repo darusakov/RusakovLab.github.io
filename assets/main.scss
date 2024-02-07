@@ -20,7 +20,7 @@ main.page-content {
   top: 84px;
   left: 0;
   right: 0;
-  bottom: 130px;
+  bottom: 110px;
   overflow-y: scroll;
 }
 
@@ -54,54 +54,60 @@ font-weight: bold;
 /* .site-nav .page-link:not(:last-child){
   margin-right: 0;
 } */
+.page-link.external-link {
+  text-decoration: none;
+  cursor: pointer; /* Optional: Change cursor for better indication of clickability */
+}
 
-    /* Container for the entire content */
-    .tools-container {
-/*      max-width: 85%; /* 3 containers: minimally 3*350px */
-      margin: 20px auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+.page-link.external-link:visited {
+  color: inherit; /* Optional: Preserve the visited link color */
+}
 
-    /* Individual video container */
-    .video-container {
-      width: calc(33.33% - 20px); /* 3 containers with spacing */
-      margin-bottom: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.2s ease-in-out;
-    }
+/* Container for three videos on the main page */
+.tools-container {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    .video-container:hover {
-      transform: scale(1.05);
-    }
+/* Individual video container */
+.video-container {
+  width: calc(33.33% - 20px); /* 3 containers with spacing */
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
 
-    /* Video styling */
-    video {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      display: block;
-      object-fit: cover;
-    }
+.video-container:hover {
+  transform: scale(1.05);
+}
 
-    /* Text styling */
-    .video-text {
-      padding: 8px;
-      word-wrap: break-word;
-      color: #1756a9;
-    }
-    .video-text h3 { margin-bottom: 0; }
-    .video-text p { margin: 0; padding: 0; }
+/* Video styling */
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  object-fit: cover;
+}
 
-    /* Media queries for responsive design */
+/* Text styling */
+.video-text {
+  padding: 8px;
+  word-wrap: break-word;
+  color: #1756a9;
+}
+.video-text h3 { margin-bottom: 0; }
+.video-text p { margin: 0; padding: 0; }
 
+/* Media queries for responsive design */
 @media (max-width: 800px) {
   .content-container {
     flex-direction: column; /* Stack containers vertically on smaller screens */
@@ -117,32 +123,23 @@ font-weight: bold;
   }
 }
 
-/*    @media (max-width: 800px) {
-      .video-container {
-        width: 100%;
-      }
-    }
-*/
-
 /* .post-list {
   border-collapse: collapse;
-} */
+}
 
 .post-list td,
 .post-list th {
   height: 20px;
   padding: auto;
-  border-bottom: 1px solid #ddd; /* Adjust color and width as needed */
+  border-bottom: 1px solid #ddd;
 }
 
 .post-link{
   display: inline;
   font-size: initial;
-}
+} */
 
-/* @media only screen and (orientation: landscape) { */
 .site-footer {
-  display: block;
   position: fixed; /* Keep footer fixed to bottom */
   bottom: 0;
   left: 0;
@@ -151,9 +148,8 @@ font-weight: bold;
   border-top: 2px solid #e8e8e8;
 }
 
-/* may want to hide footer on small screens */
-/*
-@media only screen and (max-width: 700px) {
+/* we hide footer on very small/narrow screens */
+@media only screen and (max-width: 400px) {
   .site-footer {
     display: none;
     visibility: hidden;
@@ -166,30 +162,24 @@ font-weight: bold;
     bottom: 10px;
   }
 }
-*/
 
-.contact-us{
+.about-email{
   display: inline-block;
   padding: 0 5px;
   border: 1px solid #ccc;
-/*  border-top-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 3px;
-  border-bottom-width: 3px; */
   border-radius: 5px;
   border-color: #000;
-  text-decoration: none; /* Remove underlines from links */
+  text-decoration: none;
 
-  /* Hover effect (optional) */
   &:hover {
-    background-color: #eee; /* Change background color on hover */
-    cursor: pointer; /* Change cursor to a pointer */
+    background-color: #eee; 
+    cursor: pointer;
   }
 }
 
-.footer-col-1 { width: 14%; }
-.footer-col-2 { width: 0%; } /* social links removed */
-.footer-col-3 { width: 78%; }
+/* .footer-col-1 { width: 14%; } /* Email Us removed */
+/* .footer-col-2 { width: 0%; } /* social links removed */
+.footer-col-3 { width: 100%; }
 
 /* live background from https://wweb.dev/resources/animated-css-background-generator */
 @keyframes move {

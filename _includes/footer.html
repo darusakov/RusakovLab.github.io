@@ -8,10 +8,10 @@
     -->
 
     <div class="footer-col-wrapper">
+    <!--
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            <!--
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
@@ -21,41 +21,22 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-            -->
-            <!--
             <li><a href="{{ site.baseurl }}/contact.html" class="contact-us">Contact Us</a></li>
-            -->
-            <li class="contact-us" onclick="openEmailClient()">Contact Us</li>
+            <li class="contact-us" onclick="openEmailClient()">Email Us</li>
         </ul>
       </div>
-
-      <script>
-        function openEmailClient() {
-          function oES() {
-            var empty = '' + ' ' + String.fromCharCode(32); 
-            return empty.trim();
-          }
-
-          function genEmail() {
-            var user = 'sav'+oES()+'tch'+oES()+'enko';
-            var s1 = String.fromCharCode(64);
-            var s2 = String.fromCharCode(46);
-            var domain = 'ya'+oES()+'hoo' + s2 + 'com';
-            return user + s1 + oES() + domain;
-          }
-
-          window.location.href = 'mailto:' + genEmail();
-        }
-      </script>
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
+      -->
 
       <div class="footer-col footer-col-3">
 <!--        <p>{{- site.description | escape -}}</p> -->
 <div><strong>This portal is a research team project at Queen Square Institute of Neurology, 
-University College London.</strong></div><div>It is a free-access resource for neuroscientists and neurologists that either were or are currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
+University College London.</strong></div>
+<div>It is a free resource for neuroscientists and neurologists. The project was and is 
+currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
       </div>
     </div>
 
