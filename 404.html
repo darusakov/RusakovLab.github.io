@@ -54,11 +54,19 @@
           </span>
         </label>
 
-<!--
-        <div class="trigger"><a class="page-link" href="/cloud.html">CLOUD</a><a class="page-link" href="/documents.html">DOCUMENTS</a><a class="page-link" href="/forum.html">FORUM</a><a class="page-link" href="/team.html">TEAM</a><a class="page-link" href="/tools.html">TOOLS</a></div>
--->
-        <div class="trigger">
-          <a class="page-link" href="/team.html">TEAM</a><a class="page-link" href="/tools.html">TOOLS</a><a class="page-link" href="/cloud.html">CLOUD</a><a class="page-link" href="/documents.html">DOCUMENTS</a><a class="page-link" href="/forum.html">FORUM</a></div>
+<!-- My mod - if extlink URL is assigned in page's front matter - it opens in a new tab when nav item is clicked -->
+<div class="trigger">
+  
+        <a class="page-link" href="/about.html">ABOUT</a>
+      
+        <a class="page-link" href="/tools.html">TOOLS</a>
+      
+        <a class="page-link" href="/support.html">SUPPORT</a>
+      
+        <a class="page-link external-link" href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank" rel="noopener noreferrer">REGISTER▸</a>
+      
+        <a class="page-link external-link" href="https://forum.neuroalgebra.net" target="_blank" rel="noopener noreferrer">FORUM▸</a>
+      </div>
 
       </nav></div>
 </header>
@@ -96,43 +104,24 @@
     -->
 
     <div class="footer-col-wrapper">
+    <!--
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
-            <!--Neuroalgebra</li><li><a class="u-email" href="mailto:"></a></li>-->
-            <!--
-            <li><a href="//contact.html" class="contact-us">Contact Us</a></li>
-            -->
-            <li class="contact-us" onclick="openEmailClient()">Contact Us</li>
+          <li class="p-name">Neuroalgebra</li><li><a class="u-email" href="mailto:"></a></li><li><a href="//contact.html" class="contact-us">Contact Us</a></li>
+            <li class="contact-us" onclick="openEmailClient()">Email Us</li>
         </ul>
       </div>
 
-      <script>
-        function openEmailClient() {
-          function oES() {
-            var empty = '' + ' ' + String.fromCharCode(32); 
-            return empty.trim();
-          }
-
-          function genEmail() {
-            var user = 'sav'+oES()+'tch'+oES()+'enko';
-            var s1 = String.fromCharCode(64);
-            var s2 = String.fromCharCode(46);
-            var domain = 'ya'+oES()+'hoo' + s2 + 'com';
-            return user + s1 + oES() + domain;
-          }
-
-          window.location.href = 'mailto:' + genEmail();
-        }
-      </script>
-
       <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
 </div>
+      -->
 
       <div class="footer-col footer-col-3">
 <!--        <p></p> -->
 <div><strong>This portal is a research team project at Queen Square Institute of Neurology, 
-University College London.</strong></div><div>It is a free-access resource for neuroscientists and neurologists that either were or are currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
+University College London.</strong></div>
+<div>It is a free resource for neuroscientists and neurologists. The project was and is 
+currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
       </div>
     </div>
 
@@ -140,35 +129,52 @@ University College London.</strong></div><div>It is a free-access resource for n
 
 </footer>
 <script>
-      //JS adds .active-tab class to the currently selected menu item (.page-link)
-      const pageLinks = document.querySelectorAll('.page-link');
+document.addEventListener('DOMContentLoaded', function() {
+  const pageLinks = document.querySelectorAll('.page-link');
 
-      // Function to highlight the active link based on the current page URL
-      function highlightActiveLink() {
-        const currentPagePath = window.location.pathname;
-
-        pageLinks.forEach((link) => {
-          if (link.href.endsWith(currentPagePath)) {
-            link.classList.add('active-tab');
-          } else {
-            link.classList.remove('active-tab');
-          }
-        });
+  // Function to update active-tab class based on the current page
+  function updateActiveTab() {
+    const currentPagePath = window.location.pathname;
+    pageLinks.forEach(link => {
+      if (link.getAttribute('href') === currentPagePath) {
+        link.classList.add('active-tab');
+      } else {
+        link.classList.remove('active-tab');
       }
+    });
+  }
 
-      // Highlight the active link on initial page load
-      highlightActiveLink();
+  // Initial update of active-tab class
+  updateActiveTab();
 
-      // Add event listener to highlight the clicked link
-      pageLinks.forEach((link) => {
-        link.addEventListener('click', () => {
-          // Remove 'active-tab' class from all links before adding it to the clicked link
-          pageLinks.forEach((link) => link.classList.remove('active-tab'));
-          link.classList.add('active-tab');
-        });
-      });
-    </script>
+  // Add click event listener to all links
+  pageLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      const href = link.getAttribute('href');
+      const isExternalLink = link.classList.contains('external-link');
 
-  </body>
+      // Update active-tab class after navigation
+      if (!isExternalLink) {
+        // Prevent default behavior for internal links
+        event.preventDefault();
+        // Navigate to the URL in the same tab for internal links
+        window.location.href = href;
+
+        // Remove 'active-tab' class from all links
+        pageLinks.forEach(link => link.classList.remove('active-tab'));
+        // Add 'active-tab' class to the clicked link after a short delay
+        setTimeout(() => link.classList.add('active-tab'), 100);
+      } else {
+        // Prevent default behavior for external links
+        event.preventDefault();
+        // Open external link in a new tab
+        window.open(href, '_blank');
+      }
+    });
+  });
+});
+</script>
+
+</body>
 
 </html>
