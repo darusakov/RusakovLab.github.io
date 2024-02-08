@@ -84,7 +84,7 @@ layout: home
                     video.src = URL.createObjectURL(blob);
                     document.querySelector(`.${fallbackID}`).remove();
                     video.style.display = "block";
-                }, 3350);
+                }, 100);
             });
     }
   }
