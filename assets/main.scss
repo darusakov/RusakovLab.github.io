@@ -54,6 +54,7 @@ font-weight: bold;
 /* .site-nav .page-link:not(:last-child){
   margin-right: 0;
 } */
+
 .page-link.external-link {
   text-decoration: none;
   cursor: pointer; /* Optional: Change cursor for better indication of clickability */
@@ -61,6 +62,11 @@ font-weight: bold;
 
 .page-link.external-link:visited {
   color: inherit; /* Optional: Preserve the visited link color */
+}
+
+#videoPlayer {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
 
 /* Container for three videos on the main page */
@@ -108,19 +114,18 @@ video {
 .video-text p { margin: 0; padding: 0; }
 
 /* Media queries for responsive design */
+@media (min-width: 800px) {
+  .site-nav { margin-right: 5%; } /* shift menu a bit left on wide screens */
+}
+
 @media (max-width: 800px) {
   .content-container {
     flex-direction: column; /* Stack containers vertically on smaller screens */
     align-items: center; /* Center containers horizontally */
   }
-
-  .video-container {
-    width: 100%;
-  }
-
-  .footer-col-wrapper {
-    font-size: 12px; /* Set the font size for smaller screens */
-  }
+  .video-container { width: 95%; }
+  /* Set the font size for smaller screens */
+  .footer-col-wrapper { font-size: 12px; }
 }
 
 /* .post-list {
@@ -146,6 +151,18 @@ video {
   width: 100%;
   padding: 10px;
   border-top: 2px solid #e8e8e8;
+}
+
+/* we hide footer on screens of low height (landscape) */
+@media only screen and (max-height: 700px) {
+  .site-footer {
+    display: none;
+    visibility: hidden;
+    height: 0;
+  }
+  main.page-content {
+    bottom: 10px;
+  }
 }
 
 /* we hide footer on very small/narrow screens */
@@ -208,6 +225,7 @@ video {
     animation-duration: 975s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    opacity: 0.8;
 }
 
 .background span:nth-child(16) {
