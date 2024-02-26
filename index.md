@@ -21,7 +21,7 @@ layout: home
     </video>
   </div>
 
-  <!-- BRAINCELL -->
+  <!-- BRAINCELL-1: SPINE -->
   <div class="video-container" onclick="location.href='{% link braincell.md %}'">
     <div class="video-text">
       <p><strong><h3>BRAINCELL</h3></strong> simulates realistic brain cells with 
@@ -29,8 +29,19 @@ layout: home
     </div><br>
     <img class="video-fallback2" src="assets/BrainCellSpine.png" alt="BRAINCELL simulation preview">
     <video id="myVideo2" loop autoplay muted playsinline>
-      <!-- Initially, set the first video source -->
       <source src="assets/BrainCellSpine.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- BRAINCELL-2: GABA -->
+  <div class="video-container" onclick="location.href='{% link braincell.md %}'">
+    <div class="video-text">
+      <p><strong><h3>BRAINCELL</h3></strong> simulates realistic brain cells with 
+      stochastic nano-properties and interactive 3D environment</p>
+    </div><br>
+    <img class="video-fallback3" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview">
+    <video id="myVideo3" loop autoplay muted playsinline>
+      <source src="assets/BrainCellGaba.mp4" type="video/mp4">
     </video>
   </div>
 
@@ -39,8 +50,8 @@ layout: home
     <div class="video-text">
       <p><strong><h3>ARACHNE</h3></strong> simulates spiking neuronal networks with volume transmission</p><br><br>
     </div>
-    <img class="video-fallback3" src="assets/Arachne.png" alt="ARACHNE simulation preview">
-    <video id="myVideo3" loop autoplay muted playsinline>
+    <img class="video-fallback4" src="assets/Arachne.png" alt="ARACHNE simulation preview">
+    <video id="myVideo4" loop autoplay muted playsinline>
       <source src="assets/Arachne.mp4" type="video/mp4">
     </video>
   </div>
@@ -58,9 +69,9 @@ layout: home
     const grabMP4 = (!navApiAvailable || isWifiOrEthernet || downlinkSufficient);
 
     if (grabMP4) {
-//      const cacheBuster = Date.now();
-//      fetch(`${mp4Name}?cache=${cacheBuster}`) //to debug without caching videos
-      fetch(`${mp4Name}`)
+      const cacheBuster = Date.now();
+      fetch(`${mp4Name}?cache=${cacheBuster}`) //to debug without caching videos
+//      fetch(`${mp4Name}`)
         .then(response => {
             if (response.status === 304) { // Resource not modified, use the cached version
                 return null;
@@ -88,8 +99,10 @@ layout: home
     // Call the function for each video
     loadVideo("myVideo1", "video-fallback1", "assets/Astro.mp4");
     loadVideo("myVideo2", "video-fallback2", "assets/BrainCellSpine.mp4");
-    loadVideo("myVideo3", "video-fallback3", "assets/Arachne.mp4");
+    loadVideo("myVideo4", "video-fallback4", "assets/Arachne.mp4");
+    loadVideo("myVideo3", "video-fallback3", "assets/BrainCellGaba.mp4");
 
+/*
     //we rotate BrainCell videos as there are two of them
     const videoPlayer = document.getElementById('myVideo2');
     const sources = ['assets/BrainCellSpine.mp4', 'assets/BrainCellGaba.mp4'];
@@ -101,6 +114,7 @@ layout: home
         loadVideo("myVideo2", "video-fallback2", sources[i]);
       }
     });
+*/
   });
 
 </script>
