@@ -301,7 +301,7 @@ main.page-content { position: absolute; top: 84px; left: 0; right: 0; bottom: 11
 .tools-container { margin: 20px auto; display: flex; flex-wrap: wrap; justify-content: space-around; }
 
 /* Individual video container */
-.video-container { width: calc(33.33% - 20px); /* 3 containers with spacing */ margin-bottom: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; transition: transform 0.2s ease-in-out; }
+.video-container { width: calc(25% - 20px); /* 3 containers with spacing */ margin-bottom: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; transition: transform 0.2s ease-in-out; }
 
 .video-container:hover { transform: scale(1.05); }
 
