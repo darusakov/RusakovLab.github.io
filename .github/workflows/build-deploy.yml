@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Site
+name: Build and Deploy Jekyll Site at https://drmuttik.github.io/neuroalgebra/
 on:
   push:
     branches: [master]  # Change this to your desired branch
