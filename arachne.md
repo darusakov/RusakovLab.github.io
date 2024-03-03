@@ -4,11 +4,11 @@ layout: page
 # ARACHNE
 <div style="width: 50%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne"></div>
 
-**ARACHNE** is a newly designed simulation environment in which neural and 
-neuroglial network organisation, optimisation and execution take advantage 
-of the pre-set, optimised parallel algorithms for remote computations, and 
-of a friendly user interface located on a local computer. In these settings, 
-a neuroscientist without IT background should be able to incorporate the 
+**ARACHNE** is a simulation environment in which neural and neuroglial 
+network organisation, optimisation and execution benefit from pre-set, 
+optimised parallel algorithms for remote computations, and from a 
+friendly user interface which is operated from your own computer. 
+Any neuroscientist without IT background will be able to incorporate the 
 representative variety of biophysical mechanisms pertinent to nerve (or 
 astroglial) cells, within a single network model in which the network 
 complexity is limited only by the availability of remote computing resources, 
@@ -35,7 +35,7 @@ There are 2 versions of **ARACHNE**. Each version has its own method of installa
 for local (host) and remote (Amazon) computations.
 
     - The self-installing version can be downloaded after registration. 
-    - OS : Windows 7.0 or 10.
+    - OS : Windows 7, 10 or 11.
     - Fast internet connection.
     <br><br>
 
@@ -45,7 +45,7 @@ for local (host) and remote (Amazon) computations.
     [GitHub ARACHNE](https://github.com/RusakovLab/Arachne)
     - Source code of ARACHNE includes 4 versions: Demo, Full, Matlab and Mobile.
     - Computer languages: MatLab, C++ and NEURON.
-    - OS : Windows 7.0/10, Linux or Android.
+    - OS : Windows 7/10/11, Linux or Android.
     - Fast internet connection.
 
 # Basic configurations

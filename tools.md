@@ -6,7 +6,7 @@ order: 20
 
 ### Empowering Neuroscience: Our Suite of Computational Tools
 
-We are proud to offer a trio of sophisticated computational tools, each designed to advance your neuroscience research. These tools are not only powerful but also free to use:
+We are proud to offer you a set of computational tools to help advance your neuroscience research. These tools are not only powerful but also free to use:
 
 1. [**ASTRO**]({% link astro.md %}): dive into the world of astroglial cells with ASTRO. This tool integrates a multi-scale, three-dimensional astroglial architecture into a detailed multi-compartmental cell model. Rooted in empirical tests, ASTRO enhances the [NEURON platform](https://www.neuron.yale.edu/neuron/), providing a realistic simulation environment.
    Documentation:
@@ -31,7 +31,7 @@ We are proud to offer a trio of sophisticated computational tools, each designed
 4. **CLOUD COMPUTATION:** we are currently working with
    [Neuroscience Gateway - a portal for computational Neuroscience](https://www.nsgportal.org/overview.html)
    to perform computations on their [HPC](https://en.wikipedia.org/wiki/High-performance_computing) 
-   supercomputer. When the integration is complete registered users will be able to benefit from 
+   supercomputer. When the integration is complete, registered users will be able to benefit from 
    the HPC power and run our tools on a supercomputer cluster in the cloud.
 
    To perform computations in the cloud please **download** our latest and greatest 

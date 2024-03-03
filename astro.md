@@ -7,18 +7,17 @@ layout: page
 -->
 ![]({% link assets/astro.jpg %})
 
-**ASTRO** is computational tools to construct a realistic multi-compartmental astrocyte 
+**ASTRO** is a computational tool to construct a realistic multi-compartmental astrocyte 
 model that can be biophysically interrogated in [NEURON](https://www.neuron.yale.edu/neuron/)
-computational environment.
-
-In this section, you can download **ASTRO 2.0** tool. The modelling tool **ASTRO** enables 
-generating morphological and functional digital astroglia at various scales, also mimicking 
-experiments in 3D tissue that surrounds the modelled astrocyte.
+computational environment. **ASTRO** enables generating morphological and functional digital 
+astroglia at various scales, also mimicking experiments in 3D tissue that surrounds the 
+modelled astrocyte.
 
 **There are 3 versions of Astro, all of them are free. Each version has its own method of installation.**
-1. Basic source code. Local and remote computation of the user computers.
-2. Self-installing version. Local computation. The version is avalibled after registration
-3. Self-installing version. Local and Amazon clouds computations. Users ONLY pay for the time use of Amazon's super-power cloud computers.
+1. Basic source code. Local and remote computation on your own computer.
+2. Self-installing version. Local computation. The version is avalibled after registration.
+3. Self-installing version. Local and Amazon clouds computations. Users ONLY pay 
+   for the time use of Amazon AWS cloud resources.
 
 
 #### Self-installing Astro.

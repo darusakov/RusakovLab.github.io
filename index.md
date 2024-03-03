@@ -14,7 +14,7 @@ layout: home
   <div class="video-container astro" onclick="location.href='{% link astro.md %}'">
     <div class="video-text">
       <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes based on 3D 
-      two-photon and EM data</p>
+      two-photon & EM data</p>
     </div>
     <br>
     <img class="video-fallback1" src="assets/Astro.png" alt="ASTRO simulation preview">
