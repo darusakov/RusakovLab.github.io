@@ -11,42 +11,45 @@ layout: home
 <div class="tools-container">
 
   <!-- ASTRO -->
-  <div class="video-container" onclick="location.href='{% link astro.md %}'">
+  <div class="video-container astro" onclick="location.href='{% link astro.md %}'">
     <div class="video-text">
-      <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes based on 3D two-photon and EM data</p>
+      <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes based on 3D 
+      two-photon and EM data</p>
     </div>
+    <br>
     <img class="video-fallback1" src="assets/Astro.png" alt="ASTRO simulation preview">
     <video id="myVideo1" loop autoplay muted playsinline>
       <source src="assets/Astro.mp4" type="video/mp4">
     </video>
   </div>
 
-  <!-- BRAINCELL-1: SPINE -->
-  <div class="video-container" onclick="location.href='{% link braincell.md %}'">
+  <!-- BRAINCELL -->
+  <div class="video-container braincell" onclick="location.href='{% link braincell.md %}'">
     <div class="video-text">
-      <p><strong><h3>BRAINCELL</h3></strong> visualizing synaptic activation and 
-      electrical dynamics in a CA1 neuron</p>
-    </div><br>
-    <img class="video-fallback2" src="assets/BrainCellSpine.png" alt="BRAINCELL simulation preview">
-    <video id="myVideo2" loop autoplay muted playsinline>
-      <source src="assets/BrainCellSpine.mp4" type="video/mp4">
-    </video>
+      <p><strong><h3>BRAINCELL</h3></strong>visualizing synaptic activation and electrical 
+      dynamics in a CA1 neuron</p>
+      <p>and simulating basket cell axonal release: modeling GABA</p>
+    </div>
     <br>
-  </div>
-
-  <!-- BRAINCELL-2: GABA -->
-  <div class="video-container" onclick="location.href='{% link braincell.md %}'">
-    <div class="video-text">
-      <p><strong><h3>BRAINCELL</h3></strong> simulates basket cell axonal release: modeling GABA</p> 
-    </div><br>
-    <img class="video-fallback3" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview">
-    <video id="myVideo3" loop autoplay muted playsinline>
-      <source src="assets/BrainCellGaba.mp4" type="video/mp4">
-    </video>
+    <div class="braincell-videos">
+      <div class="video-subcontainer">
+        <img class="video-fallback2" src="assets/BrainCellSpine.png" alt="BRAINCELL simulation preview">
+        <video id="myVideo2" loop autoplay muted playsinline>
+          <source src="assets/BrainCellSpine.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="separator"></div>
+      <div class="video-subcontainer">
+        <img class="video-fallback3" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview">
+        <video id="myVideo3" loop autoplay muted playsinline>
+          <source src="assets/BrainCellGaba.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
   </div>
 
   <!-- ARACHNE -->
-  <div class="video-container" onclick="location.href='{% link arachne.md %}'">
+  <div class="video-container arachne" onclick="location.href='{% link arachne.md %}'">
     <div class="video-text">
       <p><strong><h3>ARACHNE</h3></strong> shows spiking neuronal networks with volume transmission</p><br>
     </div>
