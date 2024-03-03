@@ -297,16 +297,29 @@ main.page-content { position: absolute; top: 84px; left: 0; right: 0; bottom: 11
 
 #videoPlayer { opacity: 1; transition: opacity 1s ease-in-out; }
 
+/* Video styling */
+video { width: 100%; max-width: 100%; height: auto; border-top-left-radius: 10px; border-top-right-radius: 10px; display: block; object-fit: cover; }
+
 /* Container for three videos on the main page */
 .tools-container { margin: 20px auto; display: flex; flex-wrap: wrap; justify-content: space-around; }
 
 /* Individual video container */
-.video-container { width: calc(25% - 20px); /* 3 containers with spacing */ margin-bottom: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; transition: transform 0.2s ease-in-out; }
+.video-container.astro, .video-container.braincell, .video-container.arachne { width: 95%; margin-bottom: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; transition: transform 0.2s ease-in-out; }
+
+.video-container.astro, .video-container.arachne { width: calc(25% - 20px); }
+
+.video-container.braincell { width: calc(50% - 20px); }
 
 .video-container:hover { transform: scale(1.05); }
 
-/* Video styling */
-video { width: 100%; max-width: 100%; height: auto; border-top-left-radius: 10px; border-top-right-radius: 10px; display: block; object-fit: cover; }
+.braincell-videos { display: flex; flex-direction: row; }
+
+.video-subcontainer { width: 50%; }
+
+/* vertical separator beween two Braincell videos on wide screens */
+.braincell-videos .separator { width: 1px; background-color: #ccc; margin: 0 5px; }
+
+@media (max-width: 800px) { .video-container.astro, .video-container.braincell, .video-container.arachne { width: 95%; } .video-container { width: 95%; } .video-subcontainer { width: 100%; position: relative; } .tools-container { flex-direction: column; /* Stack containers vertically on smaller screens */ align-items: center; } .braincell-videos { display: flex; flex-direction: column; } /* horizontal separator beween two Braincell videos on narrow screens */ .braincell-videos .separator { width: 80%; height: 1px; background-color: #ccc; margin: 10px auto; } /* Set the font size for smaller screens */ .footer-col-wrapper { font-size: 12px; } }
 
 /* Text styling */
 .video-text { padding: 8px; word-wrap: break-word; color: #1756a9; }
@@ -317,8 +330,6 @@ video { width: 100%; max-width: 100%; height: auto; border-top-left-radius: 10px
 
 /* Media queries for responsive design */
 @media (min-width: 800px) { .site-nav { margin-right: 5%; } /* shift menu a bit left on wide screens */ }
-
-@media (max-width: 800px) { .content-container { flex-direction: column; /* Stack containers vertically on smaller screens */ align-items: center; /* Center containers horizontally */ } .video-container { width: 95%; } /* Set the font size for smaller screens */ .footer-col-wrapper { font-size: 12px; } }
 
 /* .post-list { border-collapse: collapse; } .post-list td, .post-list th { height: 20px; padding: auto; border-bottom: 1px solid #ddd; } .post-link{ display: inline; font-size: initial; } */
 .site-footer { position: fixed; /* Keep footer fixed to bottom */ bottom: 0; left: 0; width: 100%; padding: 10px; border-top: 2px solid #e8e8e8; }
