@@ -17,7 +17,7 @@ We are proud to offer you a set of computational tools to help advance your neur
 
 2. [**ARACHNE**]({% link arachne.md %}): your gateway to creating and exploring intricate cellular networks. This simulation environment offers the flexibility to construct networks of varying biophysical and architectural complexity, leveraging the foundational logic of the [NEURON platform](https://www.neuron.yale.edu/neuron/). Its intuitive interface is accessible on both local computers and mobile devices.
    Documentation:
-   [PDF on github](https://github.com/RusakovLab/Arachne/blob/master/ARACHNE_UserManual.pdf).<br>
+   [PDF on github](https://github.com/drmuttik/algebra/blob/master/assets/ARACHNE_UserManual.pdf).<br>
 <!-- 📄 Featured Publication: [_ARACHNE: A neural-neuroglial network builder with remotely controlled parallel computing._](https://pubmed.ncbi.nlm.nih.gov/28362877/)
    <br>Aleksin SG, Zheng K, Rusakov DA, Savtchenko LP.<br>
    *PLoS Comput Biol. 2017 Mar 31;13(3):e1005467. doi: 10.1371/journal.pcbi.1005467.* -->
