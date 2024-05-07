@@ -10,7 +10,7 @@ We are proud to offer you a set of computational tools to help advance your neur
 
 1. [**ASTRO**]({% link astro.md %}): dive into the world of astroglial cells with ASTRO. This tool integrates a multi-scale, three-dimensional astroglial architecture into a detailed multi-compartmental cell model. Rooted in empirical tests, ASTRO enhances the [NEURON platform](https://www.neuron.yale.edu/neuron/), providing a realistic simulation environment.
    Documentation:
-   [PDF on gihub](https://github.com/RusakovLab/Astro/blob/master/ASTRO_User_Guide_v7.pdf).<br>
+   [PDF on gihub](https://github.com/drmuttik/algebra/blob/master/assets/ASTRO_User_Guide_v7.pdf).<br>
 <!-- 📄 Featured Publication: [_Disentangling astroglial physiology with a realistic cell model in silico._](https://www.nature.com/articles/s41467-018-05896-w)
    <br>Savtchenko LP, Bard L, Jensen TP, Reynolds JP, Kraev I, Medvedev N, Stewart MG, Henneberger C, Rusakov DA.<br>
    *Nat Commun. 2018 Sep 3;9(1):3554. doi: 10.1038/s41467-018-05896-w.* -->
