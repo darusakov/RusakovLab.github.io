@@ -4,15 +4,18 @@ layout: page
 # BRAINCELL
 ![Detailed Visualization of Neurons](assets/neurons.jpg)
 
-Introducing **BRAINCELL 1.0**: your gateway to the microscopic universe of brain cells. Designed to bridge the gap between theoretical neuroscience and practical application, **BRAINCELL** is more 
-than just software. It's a comprehensive tool that enables researchers, neuroscientists, and medical professionals to delve deep into the brain's inner mechanisms, study responses to various stimuli, 
-and assess the effectiveness of treatments. **BRAINCELL** offers an unprecedented level of detail in simulating neurons and astrocytes, achieving nano-geometry precision to mirror the brain's 
-intricate complexities.
+Introducing **BRAINCELL 1.0**: a state-of-the-art gateway to exploring the microscopic universe of brain cells. 
+This tool bridges the theoretical aspects of computational neuroscience with real-world applications, offering 
+an immersive environment for researchers, neuroscientists, and medical professionals to study the brain's 
+complex internal mechanics, react to various stimuli, and evaluate the impact of neurological treatments.
 
-At its core, **BRAINCELL** enhances the renowned [NEURON](https://www.neuron.yale.edu/neuron/) simulation environment, introducing advanced features like inter-cellular interactions, 
-spatially variant parameters, the incorporation of external influences, and the integration of stochastic elements, thus broadening the horizons of computational neuroscience.
+At its core, **BRAINCELL** builds upon the acclaimed NEURON simulation environment, augmenting it with 
+sophisticated features such as detailed inter-cellular interactions, spatially variable parameters, 
+the incorporation of external influences, and the integration of stochastic elements. These 
+enhancements significantly expand the possibilities within computational neuroscience.
 
-Dive into the **BRAINCELL** experience! Comprehensive guides are available to facilitate your journey: [step-by-step tutorial on GitHub](https://github.com/Rusakovlab/BrainCell).
+Embark on your exploration with **BRAINCELL**! A comprehensive guide and a step-by-step tutorial are available here:
+[BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
 
 #### Key Features
 

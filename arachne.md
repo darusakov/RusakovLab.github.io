@@ -31,9 +31,10 @@ cell models from the [NEURON](https://www.neuron.yale.edu/neuron/) library.
 # Installation
 There are 2 versions of **ARACHNE**. Each version has its own method of installation:
 
-1. **"Amazon Web installation"** is a self-installing version of **ARACHNE** 
-for local (host) and remote (Amazon) computations.
+1. **"Web installation"** is a self-installing version of **ARACHNE** 
+for local (host) and remote (cloud) computations.
 
+    - **ARACHNE** [Download the Arachne installer for Windows]({% link assets/UCLAppInstaller_web.1.5.zip %}).
     - The self-installing version can be downloaded after registration. 
     - OS : Windows 7, 10 or 11.
     - Fast internet connection.
@@ -42,7 +43,7 @@ for local (host) and remote (Amazon) computations.
 2. **"Basic installation"** is a source code installation of **ARACHNE**
 
     - The source code and the user manual can be downloaded at: 
-    [GitHub ARACHNE](https://github.com/RusakovLab/Arachne)
+    [ZIP file ARACHNE]({% link assets/Arachne-master.zip %})
     - Source code of ARACHNE includes 4 versions: Demo, Full, Matlab and Mobile.
     - Computer languages: MatLab, C++ and NEURON.
     - OS : Windows 7/10/11, Linux or Android.
@@ -55,5 +56,5 @@ descriptions of control results the user can find in
 
 # Documentation
 
-Manual and API documentation can be found in [User Guide PDF on GitHub](https://github.com/RusakovLab/Arachne)
+Manual and API documentation can be found in [User Guide PDF]({% link assets/ARACHNE_UserManual.pdf %})
 
