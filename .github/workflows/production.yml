@@ -1,4 +1,4 @@
-name: Build Jekyll Site for https:/neuroalgebra.net/
+name: Build Jekyll Site https:/neuroalgebra.net/
 on:
   push:
     branches: [master]  # Change this to your desired branch
@@ -23,7 +23,7 @@ jobs:
 
             # Save the _site folder as an artifact
       - name: Upload _site folder as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: neuroalgebra-net-ready
           path: ./_site
