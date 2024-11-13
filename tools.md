@@ -35,7 +35,7 @@ We are proud to offer you a set of computational tools to help advance your neur
    the HPC power and run our tools on a supercomputer cluster in the cloud.
 
    To perform computations in the cloud please **download** our latest and greatest 
-   **[CLOUD COMPUTATION PACKAGE]({% link ssets/cloudpackage-v1.zip %}).** You will find
+   **[CLOUD COMPUTATION PACKAGE]({% link assets/cloudpackage-v1.zip %}).** You will find
    **instructions on how to unpack and set it up after**
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.
 
