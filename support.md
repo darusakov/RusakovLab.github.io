@@ -11,8 +11,7 @@ If you need assistance or have any questions, join our community forum by follow
 1. Register at our forum (REGISTER▸)
 2. Login (FORUM▸)
 
-Once registered, you will be able to search for solutions, ask questions, initiate discussions, report bugs, request
-new features, and receive comprehensive support, etc. 
+Once registered, you'll gain access to a range of features, including searching for solutions, asking questions, starting discussions, reporting bugs, requesting new features, and receiving comprehensive support.
 
 Registered users also gain early access to the latest cutting-edge versions of our tools, 
 ahead of releases on GitHub, and detailed instructions for setting up the cloud computation package
