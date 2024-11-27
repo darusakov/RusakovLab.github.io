@@ -15,7 +15,7 @@ To integrate custom mechanisms into BrainCell, follow these steps:
    - A cell model with all mechanisms.
    - A DLL file specific to the mechanisms.
 2. **Unpack the Archive**: Extract the contents of the ZIP archive into the `Nanogeometry` folder of BrainCell.
-3. **Load the HOC File**: At the very beginning of activating the **BrainCell Export (BrenCell)** option, load the corresponding HOC file from the archive.
+3. **Load the HOC File**: At the very beginning of activating the **BrainCell Export (BrainCell)** option, load the corresponding HOC file from the archive.
 
 #### Available BrainCell Models
 - [Model 1: Basket Cell - GABA Dynamics]({% link models/basket.zip %})
