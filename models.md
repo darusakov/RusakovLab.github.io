@@ -11,8 +11,8 @@ order: 35
 
 To integrate custom mechanisms into BrainCell, follow these steps:
 
-1. **Prepare the ZIP Archive**: Ensure your archive includes:
-   - A cell model with all mechanisms.
+1. **Upload the ZIP Archive**: The archive should include:
+   - A cell model with all mechanisms and geometry.
    - A DLL file specific to the mechanisms.
 2. **Unpack the Archive**: Extract the contents of the ZIP archive into the `Nanogeometry` folder of BrainCell.
 3. **Load the HOC File**: At the very beginning of activating the **BrainCell Export (BrainCell)** option, load the corresponding HOC file from the archive.
@@ -41,5 +41,3 @@ To use Arachne, download and install the software first:
 #### Available Astro Models
 - [Model 1: Example Nanostructure - MATLAB File]({% link models/InterPyramidcurrent.zip %})
 - [Model 2: Single Astrocyte Finger - MATLAB File]({% link models/SinglefNanostructure.fig %})
-
-
