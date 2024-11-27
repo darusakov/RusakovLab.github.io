@@ -9,8 +9,8 @@ order: 35
 
 ### Available Models of BrainCell
 - [Model 1 - Basket Cell. GABA dynamics]({% link models/basket.zip %})
-- [Model 2 - CA1 pyramidal neuron spiking activity]({% link models/CA1PyramidalNeuron.hoc %})
-- [Model 3 - CA1 astrocyte Ca waves]({% link models/CA1AstrocyteCaWaves.hoc %})
+- [Model 2 - CA1 pyramidal neuron spiking activity]({% link models/CA1PyramidalNeuron.zip %})
+- [Model 3 - CA1 astrocyte Ca waves]({% link models/CA1AstrocyteCaWaves.zip %})
 <br>
 
 ### Available Models of Arachne ([download Arachne installer for Windows]({% link assets/UCLAppInstaller_web.1.5.zip %}))
