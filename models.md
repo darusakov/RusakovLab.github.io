@@ -26,8 +26,13 @@ To integrate custom mechanisms into BrainCell, follow these steps:
 
 ### Arachne Models
 
+
 To use Arachne, download and install the software first:  
 [Download Arachne Installer for Windows]({% link assets/UCLAppInstaller_web.1.5.zip %})
+
+**All uploaded files must be unzipped and placed in the following directory:**
+C:\Users\<username>\arachne\local\
+Replace <username> with your actual Windows username.
 
 #### Available Arachne Models
 - [Model 1: GABA Waves in CA1 Interneuron Network]({% link models/GABAWave.zip %})
