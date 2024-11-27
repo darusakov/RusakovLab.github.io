@@ -8,7 +8,7 @@ order: 35
 ## Database of Computational Models
 
 ### Available Models of BrainCell
-- [Model 1 - Basket Cell. GABA dynamics]({% link models/basket.hoc %})
+- [Model 1 - Basket Cell. GABA dynamics]({% link models/basket.zip %})
 - [Model 2 - CA1 pyramidal neuron spiking activity]({% link models/CA1PyramidalNeuron.hoc %})
 - [Model 3 - CA1 astrocyte Ca waves]({% link models/CA1AstrocyteCaWaves.hoc %})
 <br>
