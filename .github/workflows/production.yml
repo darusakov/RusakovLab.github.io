@@ -27,3 +27,4 @@ jobs:
         with:
           name: neuroalgebra-net-ready
           path: ./_site
+          retention-days: 1
