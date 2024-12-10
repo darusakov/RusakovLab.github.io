@@ -1,7 +1,11 @@
 name: Build and Deploy Jekyll Site at https://drmuttik.github.io/neuroalgebra/
-on:
-  push:
-    branches: [master]  # Change this to your desired branch
+
+#temporary set to manual mode, automatic on:push:branches:[master] is commented out
+on: 
+  workflow_dispatch:
+#on:
+#  push:
+#    branches: [master]
 
 jobs:
   build-and-deploy:
