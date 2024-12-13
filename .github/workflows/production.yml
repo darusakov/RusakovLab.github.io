@@ -23,12 +23,11 @@ jobs:
           path: ./_site
           retention-days: 1
 
-      #publish to gh-pages (rusakovlab.github.io)
-      - uses: peaceiris/actions-gh-pages@v3
+      #publish to gh-pages (mapped to rusakovlab.github.io)
+      - name: Deploy to GitHub Pages 
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
-          destination_dir: .
 
-            
