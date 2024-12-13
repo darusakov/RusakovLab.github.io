@@ -15,11 +15,12 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-      #- uses: peaceiris/actions-gh-pages@v3
-        #with:
-        #  personal_token: ${{ secrets.GITHUB_TOKEN }}
-        #  publish_dir: ./_site
-        #  publish_branch: gh-pages
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          publish_root: true  # This option allows publishing to the root of the branch if repository is called rusakovlab.github.io
 
             # Save the _site folder as an artifact
       - name: Upload _site folder as artifact
@@ -28,3 +29,4 @@ jobs:
           name: neuroalgebra-net-ready
           path: ./_site
           retention-days: 1
+            
