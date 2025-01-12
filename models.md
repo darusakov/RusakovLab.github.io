@@ -5,9 +5,13 @@ hide_title: true
 order: 35
 ---
 
-## Database of Computational Models
+## Computational models created in-house 
 
-### BrainCell Models
+### BRAINCELL (neuron and astrocyte) Models
+
+- [Model 1: Basket Cell - GABA Dynamics]({% link models/basket.zip %})
+- [Model 2: CA1 Pyramidal Neuron - Spiking Activity]({% link models/CA1PyramidalNeuron.zip %})
+- [Model 3: CA1 Astrocyte - Calcium Waves]({% link models/CA1AstrocyteCaWaves.zip %})
 
 To integrate custom mechanisms into BrainCell, follow these steps:
 
@@ -17,32 +21,23 @@ To integrate custom mechanisms into BrainCell, follow these steps:
 2. **Unpack the Archive**: Extract the contents of the ZIP archive into the `Nanogeometry` folder of BrainCell.
 3. **Load the HOC File**: At the very beginning of activating the **BrainCell Export (BrainCell)** option, load the corresponding HOC file from the archive.
 
-#### Available BrainCell Models
-- [Model 1: Basket Cell - GABA Dynamics]({% link models/basket.zip %})
-- [Model 2: CA1 Pyramidal Neuron - Spiking Activity]({% link models/CA1PyramidalNeuron.zip %})
-- [Model 3: CA1 Astrocyte - Calcium Waves]({% link models/CA1AstrocyteCaWaves.zip %})
 
----
+### ARACHNE (network) models
 
-### Arachne Models
+- [Model 1: GABA Waves in CA1 Interneuron Network]({% link models/GABAWave.zip %})
+- [Model 2: Rippling Waves in Interneuron-Pyramidal Network]({% link models/ElectricalWaveInterPyramid.zip %})
+- [Model 3: Stochastic Dynamics in Interneuron-Pyramidal Network]({% link models/InterPyramidcurrent.zip %})
 
 
-To use Arachne, download and install the software first:  
+To use ARACHNE, download and install the software first:  
 [Download Arachne Installer for Windows]({% link assets/UCLAppInstaller_web.1.5.zip %})
 
 **All uploaded files must be unzipped and placed in the following directory:**
 C:\Users\<username>\arachne\local\
 Replace <username> with your actual Windows username.
 
-#### Available Arachne Models
-- [Model 1: GABA Waves in CA1 Interneuron Network]({% link models/GABAWave.zip %})
-- [Model 2: Rippling Waves in Interneuron-Pyramidal Network]({% link models/ElectricalWaveInterPyramid.zip %})
-- [Model 3: Stochastic Dynamics in Interneuron-Pyramidal Network]({% link models/InterPyramidcurrent.zip %})
 
----
+### ASTRO (astrocyte) Models
 
-### Astro Models
-
-#### Available Astro Models
 - [Model 1: Example Nanostructure - MATLAB File]({% link models/InterPyramidcurrent.zip %})
 - [Model 2: Single Astrocyte Finger - MATLAB File]({% link models/SinglefNanostructure.fig %})
