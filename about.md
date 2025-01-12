@@ -57,8 +57,7 @@ Our publications, reflecting research on [ARACHNE](https://neuroalgebra.net/arac
    
    
 
-If you need support please join Neuroalgebra forum and ask your question. If you have any 
-suggestions about our tools or about the Web site, please feel free to share them with us via 
+If you require support please join Neuroalgebra forum. For any suggestions about our tools or the Website, please feel free to share them with us via 
 <span class="about-email" onclick="openEmailClient()">Email</span>.
 
 <script>
