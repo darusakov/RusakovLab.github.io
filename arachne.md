@@ -4,21 +4,15 @@ layout: page
 # ARACHNE
 <div style="width: 50%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne"></div>
 
-**ARACHNE** is a simulation environment in which neural and neuroglial 
-network organisation, optimisation and execution benefit from pre-set, 
+**ARACHNE** is a simulation platform to model multi-cell spiking  networks of neurons and astrocytes. In its   
+environment, network organisation, optimisation, and execution benefit from pre-set, 
 optimised parallel algorithms for remote computations, and from a 
 friendly user interface which is operated from your own computer. 
-Any neuroscientist without IT background will be able to incorporate the 
-representative variety of biophysical mechanisms pertinent to nerve (or 
-astroglial) cells, within a single network model in which the network 
-complexity is limited only by the availability of remote computing resources, 
-and not by the modelling kernel or its interface.
+A neuroscientist without IT background should be able to incorporate the 
+representative variety of biophysical mechanisms pertinent to nerve and 
+astroglial cells, within a single network model. 
 
-Creating and running realistic models of neural networks has hitherto been 
-a task for computing professionals rather than experimental neuroscientists.
-This is mainly because such networks usually engage substantial computational
-resources, the handling of which requires specific programming skills. Here 
-we put forward a newly developed simulation environment **ARACHNE**: it enables 
+A newly developed simulation environment of **ARACHNE**  enables 
 an investigator to build and explore cellular networks of arbitrary 
 biophysical and architectural complexity using the logic of 
 [NEURON](https://www.neuron.yale.edu/neuron/)
