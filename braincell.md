@@ -10,11 +10,11 @@ This tool combines theoretical aspects of computational neuroscience with real-w
 Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINCELL**   
 - introduces stochastic morphogenesis and other probabilistic features of cell morphology and function;
 - provides freeze, storage, and resumption of the planned or ongoing simulation experiments at any time point, with all current parameters and outputs recalled;
-- delivers dynamic interactions of cell physiology with its extracellular environment;
+- delivers dynamic interactions of cell physiology with local extracellular environment including ion balances and fluxes;
 - enables modelling of non-synaptic connections, such as gap junctions;
-- simulates neurotransmitter relase, extracelluilar diffusion and uptake from designated cell release sites;     
-- enables modelling of inter-cellular interactions in brain neuropil, such as an interaction between astrocytes and neurons;
-- incroporates all intracellular and cell membrane mechanisms available in NEURON modelas and databases;  
+- simulates relase, extracellular diffusion and uptake of neurotransmitter(s) from multiple designated cell release sites;     
+- enables modelling of inter-cellular communications in brain neuropil, such as a diffusion-driven interaction between astrocytes and neurons;
+- incroporates all intracellular and cell membrane mechanisms available in NEURON models and databases;  
 - adapts all common brain cell databases for cell model import.
 
 A comprehensive guide and a step-by-step tutorial are available here:
