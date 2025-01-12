@@ -4,10 +4,9 @@ layout: page
 # ARACHNE
 <div style="width: 50%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne"></div>
 
-**ARACHNE** is a simulation platform to model multi-cell spiking  networks of neurons and astrocytes. In its   
-environment, network organisation, optimisation, and execution benefit from pre-set, 
-optimised parallel algorithms for remote computations, and from a 
-friendly user interface which is operated from your own computer. 
+**ARACHNE** is designed to model spiking networks of neurons and astrocytes. It benefist from  
+optimised parallel algorithms for remote computations and a 
+user-friendly interface operated from a local computer. 
 A neuroscientist without IT background should be able to incorporate the 
 representative variety of biophysical mechanisms pertinent to nerve and 
 astroglial cells, within a single network model. 
