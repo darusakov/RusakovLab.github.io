@@ -9,9 +9,16 @@ Neuroalgebra is a collaborative project spearheaded by the
 - **Leonid P. Savtchenko**
 - **Dmitri A. Rusakov**
 
-Our team's scholarly contributions, reflecting our research on [ARACHNE]({% link arachne.md %}) 
-and [ASTRO]({% link astro.md %}), include the following publications:
+Our publications, reflecting our research on [ARACHNE]({% link arachne.md %}), [ASTRO]({% link astro.md %}), and BRAINCELL({% link braincell.md %}):
 
+6. [**Equal levels of pre-and postsynaptic potentiation produce unequal outcomes.**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0235)  
+   Savtchenko LP, Rusakov DA.  
+   *Phil Trans Roy Soc B 2024, 379:20230235.*
+
+6. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
+   Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger, JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
+   *Current Biology 2023, 33:1249-1264.*
+   
 1. [**Disentangling Astroglial Physiology with a Realistic Cell Model in Silico.**](https://www.nature.com/articles/s41467-018-05896-w)  
    Savtchenko LP, Bard L, Jensen TP, Reynolds JP, Kraev I, Medvedev N, Stewart MG, Henneberger C, Rusakov DA.  
    *Nat Commun. 2018, 9:3554.*
@@ -26,11 +33,11 @@ and [ASTRO]({% link astro.md %}), include the following publications:
 
 4. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)  
    Savtchenko LP, Rusakov DA.  
-   *Phil Trans Roy Soc B  369:20130614.*
+   *Phil Trans Roy Soc B 2014, 369:20130614.*
    
-6. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
-   Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger, JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
-   *Current Biology, 33:1249-1264.*
+
+
+   
    
 
 If you need support please join Neuroalgebra forum and ask your question. If you have any 
