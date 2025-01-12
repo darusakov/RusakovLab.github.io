@@ -7,14 +7,14 @@ layout: page
 #### Introducing BRAINCELL 1.0, a computation platform for biophysical exploration of brain cells and their environment, on the scale from nanometeres to hundreds of microns. 
 **BRAINCELL** combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventions.
 
-**New and Advanced:** Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINCELL**   
+**New and Advanced:** Building upon the acclaimed NEURON simulation environment at its core, **BRAINCELL**   
 - introduces stochastic morphogenesis and other probabilistic features of cell morphology and function;
 - provides freeze, storage, and resumption of the planned or ongoing simulation experiments at any time point, with all current parameters and outputs recalled;
 - delivers dynamic interactions of cell physiology with local extracellular environment including ion balances and fluxes;
 - enables modelling of non-synaptic connections, such as gap junctions;
-- simulates relase, extracellular diffusion and uptake of neurotransmitter(s) from multiple designated cell release sites;     
+- simulates release, extracellular diffusion and uptake of neurotransmitter(s) from multiple designated cell release sites;     
 - enables modelling of inter-cellular communications in brain neuropil, such as a diffusion-driven interaction between astrocytes and neurons;
-- incroporates all intracellular and cell membrane mechanisms available in NEURON models and databases;  
+- incorporates all intracellular and cell membrane mechanisms available in NEURON models and databases;  
 - adopts all common brain cell databases for cell model import.
 
 
