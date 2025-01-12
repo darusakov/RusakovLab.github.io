@@ -39,7 +39,7 @@ from the site after registration.<br>System Requirements for Amazon Web instalat
     - Fast internet conections.
     - Basic version of Astro can be downloaded from [ZIP file ASTRO]({% link assets/Astro-master.zip %}).
 
-3. **Most ASTRO functions have been superseeded by BRAINCELL**
+3. **Most ASTRO functions have been superseeded by BRAINCELL.**
 
 #### Documentation
 Manual and API documentation can be found in [User Guide PDF]({% link assets/ASTRO_User_Guide_v7.pdf %}). 
