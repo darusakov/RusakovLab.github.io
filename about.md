@@ -26,11 +26,11 @@ and [ASTRO]({% link astro.md %}), include the following publications:
 
 4. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)  
    Savtchenko LP, Rusakov DA.  
-   *Phil Trans Roy Soc B  369:20130614*
+   *Phil Trans Roy Soc B  369:20130614.*
    
 6. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
    Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger, JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
-   *Current Biology, 33:1249-1264*
+   *Current Biology, 33:1249-1264.*
    
 
 If you need support please join Neuroalgebra forum and ask your question. If you have any 
