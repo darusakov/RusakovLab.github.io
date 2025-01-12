@@ -23,7 +23,7 @@ Our publications, reflecting our research on [ARACHNE]({% link arachne.md %}), [
    Jensen TP, Koach O, Reynolds JP, Savtchenko LP, Rusakov DA.  
    *eLife 2021, 9:62588.*
 
-4. [**Noisy Synaptic Conductance: Bug or a Feature?.**](https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30069-2)  
+4. [**Noisy Synaptic Conductance: Bug or a Feature?**](https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30069-2)  
    Rusakov DA, Savtchenko LP, Latham P.  
    *Trends Neurosci. 2020, 43:363-372.*
 
