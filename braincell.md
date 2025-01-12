@@ -4,7 +4,7 @@ layout: page
 # BRAINCELL
 ![Detailed Visualization of Neurons](assets/neurons.jpg)
 
-Introducing **BRAINCELL 1.0 **: A computation platform for biophysical exploration of brain cells and their environment, on the scale from nanometeres to hundreds of microns. 
+#### Introducing **BRAINCELL 1.0 **: A computation platform for biophysical exploration of brain cells and their environment, on the scale from nanometeres to hundreds of microns. 
 This tool combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including replication of some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventions.
 
 Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINCELL**   
