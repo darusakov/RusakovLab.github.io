@@ -7,12 +7,17 @@ layout: page
 Introducing **BRAINCELL 1.0 **: A computation platform for biophysical exploration of brain cells and their environment, on the scale from nanometeres to hundreds of microns. 
 This tool combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including replication of some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventions.
 
-At its core, **BRAINCELL** builds upon the acclaimed NEURON simulation environment, augmenting it with 
-sophisticated features such as detailed inter-cellular interactions, spatially variable parameters, 
-the incorporation of external influences, and the integration of stochastic elements. These 
-enhancements significantly expand the possibilities within computational neuroscience.
+Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINCELL**   
+- introduces stochastic morphogenesis and other probabilistic features of cell morphology and function;
+- provides freeze, storage, and resumption of the planned or ongoing simulation experiments at any time point, with all current parameters and outputs recalled;
+- delivers dynamic interactions of cell physiology with its extracellular environment;
+- enables modelling of non-synaptic connections, such as gap junctions;
+- simulates neurotransmitter relase, extracelluilar diffusion and uptake from designated cell release sites;     
+- enables modelling of inter-cellular interactions in brain neuropil, such as an interaction between astrocytes and neurons;
+- incroporates all intracellular and cell membrane mechanisms available in NEURON modelas and databases;  
+- adapts all common brain cell databases for cell model import.
 
-Embark on your exploration with **BRAINCELL**! A comprehensive guide and a step-by-step tutorial are available here:
+A comprehensive guide and a step-by-step tutorial are available here:
 [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
 
 #### Key Features
