@@ -4,6 +4,8 @@ title: SUPPORT
 order: 30
 ---
 
+## Online Assistance
+
 If you require assistance, please join our community forum by following these steps:
 
 1. Register at our forum (REGISTER▸)
@@ -17,8 +19,6 @@ ahead of releases on GitHub, and detailed instructions for setting up the cloud 
 
 
 ## Additional Support Resources
-
-Our dedicated support resources:
 
 - **Technical Support Email**: For direct support, contact our technical team any time by pressing this button:
 <span class="about-email" onclick="openEmailClient()">Email</span>.
