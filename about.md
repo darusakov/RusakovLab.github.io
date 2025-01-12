@@ -24,10 +24,11 @@ and [ASTRO]({% link astro.md %}), include the following publications:
    Pavlov I, Savtchenko LP, Song I, Koo J, Pimashkin A, Rusakov DA, Semyanov A.  
    *Proc Natl Acad Sci U S A. 2014 Jan 7;111(1):504-9. doi: 10.1073/pnas.1308388110.*
 
-4. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)Savtchenko LP, Rusakov DA.  
+4. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)
+   Savtchenko LP, Rusakov DA.  
    *Phil Trans Roy Soc B  369: 20130614*
    
-5. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
+6. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
    Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger, JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
    *Current Biology 33 (7), 1249-1264. e7*
    
