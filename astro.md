@@ -9,7 +9,7 @@ layout: page
 
 **ASTRO** is a computational tool to construct a realistic multi-compartmental astrocyte 
 model that can be biophysically interrogated in [NEURON](https://www.neuron.yale.edu/neuron/)
-computational environment, on the scale from nanometers to the entire cell moprhology. **ASTRO** also enables dynamics interactions between the modelled astorcyte and the surrounding 3D tissue environment.
+computational environment, on the scale from nanometers to the entire cell moprhology. **ASTRO** generates stochastically cell nanoscopic protrusions based on their real-world parametersm and enables dynamic interactions between the modelled astorcyte and the surrounding 3D tissue environment.
 
 #### Installation
 
