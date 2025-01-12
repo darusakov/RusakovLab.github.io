@@ -20,16 +20,16 @@ order: 20
    <br>Aleksin SG, Zheng K, Rusakov DA, Savtchenko LP.<br>
    *PLoS Comput Biol. 2017 Mar 31;13(3):e1005467. doi: 10.1371/journal.pcbi.1005467.* -->
 
-3. [**BRAINCELL**]({% link braincell.md %}): an advanced interface for the [NEURON platform](https://www.neuron.yale.edu/neuron/), known for its extensive simulation capabilities for cellular and biophysical mechanisms. BRAINCELL enhances NEURON by adding refined control over inter-cell properties, spatial variations, external influences, and stochastic elements, offering a richer simulation experience.
+3. [**BRAINCELL**]({% link braincell.md %}) is a platform that combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventionse. Its key features include stochastic generation of nano-morphology and function, stop-save-go control of simulation runs, dynamic extracellular and inter-cellular interactions, adaptive import of cell morphologies.     
    Documentation:
    [PDF file]({% link assets/BRAINCELL_User_Guide.pdf %}), or in Word format
    [BRAINCELL_User_Guide.docx]({% link assets/BRAINCELL_User_Guide.docx %})
    (alternatively, check [experimental PDF->HTML conversion]({% link brdoc.md %})).
 
-4. **CLOUD COMPUTATION:** we are currently working with
+4. **CLOUD COMPUTATION PLUGIN**: we are currently working with
    [Neuroscience Gateway - a portal for computational Neuroscience](https://www.nsgportal.org/overview.html)
-   to perform computations on their [HPC](https://en.wikipedia.org/wiki/High-performance_computing) 
-   supercomputer. When the integration is complete, registered users will be able to benefit from 
+   to enable computations on their [HPC](https://en.wikipedia.org/wiki/High-performance_computing) 
+   supercomputer. When the integration is complete, registered Neuroalgebra users will be able to benefit from 
    the HPC power and run our tools on a supercomputer cluster in the cloud.
 
    To perform computations in the cloud please **download** our latest and greatest 
