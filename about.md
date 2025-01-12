@@ -8,6 +8,11 @@ Neuroalgebra is a collaborative project spearheaded by the
 [UCL Laboratory of Synaptic Imaging](https://www.ucl.ac.uk/ion/research/research-departments/department-clinical-and-experimental-epilepsy/experimental-research-4). The dedicated team behind this initiative includes:
 - **Leonid P. Savtchenko**
 - **Dmitri A. Rusakov**
+  
+and our long-term industrial collaborators at:
+- **[AMC Bridge LLC](https://www.amcbridge.com) (Waltham MA, USA)**
+- **[Unboltsoft](https://unboltsoft.com/) (Dnipro, Ukraine)**
+- **[CyberCurio LLP](https://cybercurio.weebly.com/) (Berkhamsted, UK)**
 
 Our publications, reflecting research on [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
