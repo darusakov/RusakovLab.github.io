@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<h3>Neuroalgebra is a portal for brain cell computations with stochastic nano-properties and interactive control of 3D environment.</h3>
+<h3>Neuroalgebra is a computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
 
 <!-- Container for all three tools with videos -->
 <div class="tools-container">
