@@ -24,7 +24,7 @@ Our publications, reflecting our research on [ARACHNE]({% link arachne.md %}), [
    *eLife 2021, 9:62588.*
 
 4. [**Noisy Synaptic Conductance: Bug or a Feature?.**](https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30069-2)  
-   Ruskaov DA, Savtchenko LP, Latham P  
+   Rusakov DA, Savtchenko LP, Latham P.  
    *Trends Neurosci. 2020, 43:363-372.*
 
 5. [**Extracellular GABA waves regulate coincidence detection in excitatory circuits.**](https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/JP279744)  
