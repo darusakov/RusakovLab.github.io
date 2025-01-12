@@ -4,18 +4,16 @@ title: TOOLS
 order: 20
 ---
 
-### Empowering Neuroscience: Our Suite of Computational Tools
+### Computational Tools
 
-We are proud to offer you a set of computational tools to help advance your neuroscience research. These tools are not only powerful but also free to use:
-
-1. [**ASTRO**]({% link astro.md %}): dive into the world of astroglial cells with ASTRO. This tool integrates a multi-scale, three-dimensional astroglial architecture into a detailed multi-compartmental cell model. Rooted in empirical tests, ASTRO enhances the [NEURON platform](https://www.neuron.yale.edu/neuron/), providing a realistic simulation environment.
+1. [**ASTRO**]({% link astro.md %}) is a computational platform for constructing and exploring realistic multi-compartmental astrocyte models that can be biophysically interrogated in NEURON computational environment, on the scale from nanometers to the entire cell moprhology. ASTRO generates stochastically cell nanoscopic protrusions based on their real-world parameters and enables dynamic interactions between the modelled astorcyte and the surrounding 3D tissue environment.
    Documentation:
    [PDF file]({% link assets/ASTRO_User_Guide_v7.pdf %}).<br>
 <!-- 📄 Featured Publication: [_Disentangling astroglial physiology with a realistic cell model in silico._](https://www.nature.com/articles/s41467-018-05896-w)
    <br>Savtchenko LP, Bard L, Jensen TP, Reynolds JP, Kraev I, Medvedev N, Stewart MG, Henneberger C, Rusakov DA.<br>
    *Nat Commun. 2018 Sep 3;9(1):3554. doi: 10.1038/s41467-018-05896-w.* -->
 
-2. [**ARACHNE**]({% link arachne.md %}): your gateway to creating and exploring intricate cellular networks. This simulation environment offers the flexibility to construct networks of varying biophysical and architectural complexity, leveraging the foundational logic of the [NEURON platform](https://www.neuron.yale.edu/neuron/). Its intuitive interface is accessible on both local computers and mobile devices.
+2. [**ARACHNE**]({% link arachne.md %}) is designed to model multi-cell spiking networks of neurons and astrocytes. In ARACHNE environment, the network organisation, optimisation, and execution benefit from pre-set, optimised parallel algorithms for remote computations and a friendly user interface operated from your own computer. A neuroscientist without IT background should be able to incorporate the representative variety of biophysical mechanisms pertinent to nerve and astroglial cells, within a single network model.
    Documentation:
    [PDF file]({% link assets/ARACHNE_UserManual.pdf %}).<br>
 <!-- 📄 Featured Publication: [_ARACHNE: A neural-neuroglial network builder with remotely controlled parallel computing._](https://pubmed.ncbi.nlm.nih.gov/28362877/)
