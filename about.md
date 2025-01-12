@@ -23,19 +23,27 @@ Our publications, reflecting our research on [ARACHNE]({% link arachne.md %}), [
    Jensen TP, Koach O, Reynolds JP, Savtchenko LP, Rusakov DA.  
    *eLife 2021, 9:62588.*
 
-4. [**Disentangling Astroglial Physiology with a Realistic Cell Model in Silico.**](https://www.nature.com/articles/s41467-018-05896-w)  
+4. [**Noisy Synaptic Conductance: Bug or a Feature?.**](https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30069-2)  
+   Ruskaov DA, Savtchenko LP, Latham P  
+   *Trends Neurosci. 2020, 43:363-372.*
+
+5. [**Extracellular GABA waves regulate coincidence detection in excitatory circuits.**](https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/JP279744)  
+  Sylantyev S, Savtchenko LP, O'Neill N, Rusakov DA.  
+   *J Physiol. 2020, 598:4047–4062.*
+
+6. [**Disentangling Astroglial Physiology with a Realistic Cell Model in Silico.**](https://www.nature.com/articles/s41467-018-05896-w)  
    Savtchenko LP, Bard L, Jensen TP, Reynolds JP, Kraev I, Medvedev N, Stewart MG, Henneberger C, Rusakov DA.  
    *Nat Commun. 2018, 9:3554.*
 
-5. [**ARACHNE: A Neural-Neuroglial Network Builder with Remotely Controlled Parallel Computing.**](https://pubmed.ncbi.nlm.nih.gov/28362877/)  
+7. [**ARACHNE: A Neural-Neuroglial Network Builder with Remotely Controlled Parallel Computing.**](https://pubmed.ncbi.nlm.nih.gov/28362877/)  
    Aleksin SG, Zheng K, Rusakov DA, Savtchenko LP.  
    *PLoS Comput Biol. 2017, 13:e1005467.*
 
-6. [**Tonic GABAA Conductance Bidirectionally Controls Interneuron Firing Pattern and Synchronization in the CA3 Hippocampal Network.**](https://pubmed.ncbi.nlm.nih.gov/24344272/)  
+8. [**Tonic GABAA Conductance Bidirectionally Controls Interneuron Firing Pattern and Synchronization in the CA3 Hippocampal Network.**](https://pubmed.ncbi.nlm.nih.gov/24344272/)  
    Pavlov I, Savtchenko LP, Song I, Koo J, Pimashkin A, Rusakov DA, Semyanov A.  
    *Proc Natl Acad Sci U S A. 2014, 111:504-9.*
 
-7. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)  
+9. [**Regulation of rhythm genesis by volume-limited, astroglia-like signals in neural networks**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0614)  
    Savtchenko LP, Rusakov DA.  
    *Phil Trans Roy Soc B 2014, 369:20130614.*
    
