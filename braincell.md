@@ -4,7 +4,7 @@ layout: page
 # BRAINCELL
 ![Detailed Visualization of Neurons](assets/neurons.jpg)
 
-Introducing **BRAINCELL 1.0 **: a state-of-the-art gateway to exploring the microscopic universe of brain cells. 
+Introducing **BRAINCELL 1.0 **: A computation platform for biophysical exploration of brain cells and their environment, on the scale from nanometeres to hundreds of microns. 
 This tool bridges the theoretical aspects of computational neuroscience with real-world applications, offering 
 an immersive environment for researchers, neuroscientists, and medical professionals to study the brain's 
 complex internal mechanics, react to various stimuli, and evaluate the impact of neurological treatments.
