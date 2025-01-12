@@ -6,8 +6,8 @@ order: 20
 
 Neuroalgebra is a collaborative project spearheaded by the 
 [UCL Laboratory of Synaptic Imaging](https://www.ucl.ac.uk/ion/research/research-departments/department-clinical-and-experimental-epilepsy/experimental-research-4). The dedicated team behind this initiative includes:
-- **Prof. Rusakov D.A.**
-- **Dr. Savtchenko L.P.**
+- **Leonid P. Savtchenko**
+- **Dmitri A. Rusakov**
 
 Our team's scholarly contributions, reflecting our research on [ARACHNE]({% link arachne.md %}) 
 and [ASTRO]({% link astro.md %}), include the following publications:
