@@ -41,7 +41,6 @@ order: 20
    **instructions on how to unpack and set it up after**
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.
 
-<br>
-> **Open Source Commitment**:<br>
-> Our software packages are open for you to download, install, and explore under the MIT license. Embrace the freedom to advance your research with our cutting-edge tools.
+   **Open Source Commitment:** Our software packages are open for you to download, install, and explore under the MIT license. 
+
 
