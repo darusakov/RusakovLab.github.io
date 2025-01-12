@@ -51,7 +51,7 @@ layout: home
   <!-- ARACHNE -->
   <div class="video-container arachne" onclick="location.href='{% link arachne.md %}'">
     <div class="video-text">
-      <p><strong><h3>ARACHNE</h3></strong> simulates spiking neuronal networks with astrocytes and volume transmission</p><br>
+      <p><strong><h3>ARACHNE</h3></strong> simulates multi-cell spiking neuronal networks with astrocytes and volume transmission</p><br>
     </div>
     <img class="video-fallback4" src="assets/Arachne.png" alt="ARACHNE simulation preview">
     <video id="myVideo4" loop autoplay muted playsinline>
