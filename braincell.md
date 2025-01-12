@@ -17,10 +17,11 @@ Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINC
 - incroporates all intracellular and cell membrane mechanisms available in NEURON models and databases;  
 - adopts all common brain cell databases for cell model import.
 
-A comprehensive guide and a step-by-step tutorial are available here:
-[BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
+
 
 - **Documentation**: From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to harness the full potential of BRAINCELL.
+- A comprehensive guide and a step-by-step tutorial are available here:
+[BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
 - **Ongoing Support**: Our commitment to your research extends beyond software provision. We offer continuous support to help you unlock groundbreaking insights into brain functionality.
 
 #### Building Realistic Cell Models - Characteristic Steps 
