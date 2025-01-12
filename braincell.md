@@ -15,29 +15,22 @@ Builduing upon the acclaimed NEURON simulation environment at its core, **BRAINC
 - simulates relase, extracellular diffusion and uptake of neurotransmitter(s) from multiple designated cell release sites;     
 - enables modelling of inter-cellular communications in brain neuropil, such as a diffusion-driven interaction between astrocytes and neurons;
 - incroporates all intracellular and cell membrane mechanisms available in NEURON models and databases;  
-- adapts all common brain cell databases for cell model import.
+- adopts all common brain cell databases for cell model import.
 
 A comprehensive guide and a step-by-step tutorial are available here:
 [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
 
-#### Key Features
-
-- **Realistic Cell Models**: Harness the power to create and simulate detailed models of neurons and astrocytes, each crafted with nano-geometry precision to reflect real-world complexity.
-- **Customizable Parameters**: Fine-tune your simulations by adjusting key parameters like membrane capacitance, ion conductance, synaptic strength, and more, observing the resultant cellular behavior in real-time.
-- **User-Friendly Interface**: BRAINCELL is designed to cater to both seasoned computational neuroscientists and newcomers, offering a seamless and intuitive user experience coupled with extensive customization capabilities.
-- **Comprehensive Documentation**: From installation to simulation analysis, our in-depth user manual provides all the guidance you need to harness the full potential of BRAINCELL.
+- **Documentation**: From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to harness the full potential of BRAINCELL.
 - **Ongoing Support**: Our commitment to your research extends beyond software provision. We offer continuous support to help you unlock groundbreaking insights into brain functionality.
 
-#### Building Realistic Cell Models
+#### Building Realistic Cell Models - Characteristic Steps 
 
-Crafting a realistic cell model is an art that involves meticulous attention to detail. Here are some critical components to consider:
+- **Basic cell morphology**: Start by importing a 3D reconstructed tree of principal cell processes from neuromorpho.org, another database, or create your own.
+- **Real-world morphometrics on the nanoscale**: Establish or adopt statistical properties of cell nanostructures unattainable for direct reconstruction, such as dendritic spines or astrocyte protrusions.    
+- **Stochastic generation of cellular nanostructures**: Leverage BRAINCELL capability to generate large populations of synapses, dendritic spines, or nanoscopic astroglial processes, ensuring their statistical properties align with real-word statistics.
+- **Tissue volume fraction**: To correctly represent the extracellular environment, define experimentally or adopt the distributions of tissue volume fraction occupied by glia and neurons.
+- **Membrane surface density**: To correctly model the dynamic interactions inside and outside cells, define experimentally or adopt the distributions of cell membrane surface areas.
+- **Functional and parametric data**: Enrich your cell models by integrating functional data such as I-V curves, electrical response characteristics, intracellular ion dynamics, neurotransmitter diffusion and uptake parameters, etc.
 
-- **Cell Processes**: Start by importing a 3D reconstructed tree of principal cell processes from neuromorpho.org, or create your own artificial cell arbors tailored to your research needs.
-- **Astrocyte Nanostructures**: Accurately reconstruct nanoscopic astroglial processes, ensuring their statistical properties align with observed biological data.
-- **Neuron Nanostructures**: Leverage our software's capability to automatically generate synaptic spines, each parameterizable to suit your study's requirements.
-- **Tissue Volume Fraction**: Quantify the volume occupied by astroglia and neurons, accounting for the radial distribution emanating from the soma.
-- **Membrane Surface Density**: Employ 3D reconstructions to accurately map nanoscopic processes and their impact on membrane surface area.
-- **Functional Data**: Enrich your models by integrating functional data such as I-V curves, electrical response characteristics, and intracellular ionic  dynamics.
-
-Embrace the power of **BRAINCELL** and embark on a journey to unlock the mysteries of the brain through precise simulation and deep understanding.
+Embrace the power of **BRAINCELL** and embark on a journey to unlock the brain machinery through its precise simulation and deeper understanding, on multiple scales.
 
