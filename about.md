@@ -9,7 +9,7 @@ Neuroalgebra is a collaborative project spearheaded by the
 - **Leonid P. Savtchenko**
 - **Dmitri A. Rusakov**
 
-Our publications, reflecting our research on [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html)
+Our publications, reflecting research on [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
 1. [**Equal levels of pre-and postsynaptic potentiation produce unequal outcomes.**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0235)  
    Savtchenko LP, Rusakov DA.  
