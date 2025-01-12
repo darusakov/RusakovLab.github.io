@@ -4,23 +4,21 @@ title: SUPPORT
 order: 30
 ---
 
-Everything on this Web site is free and can be accessed without restrictions.
-
-If you need assistance or have any questions, join our community forum by following these steps:
+If you require assistance, please join our community forum by following these steps:
 
 1. Register at our forum (REGISTER▸)
 2. Login (FORUM▸)
 
-Once registered, you'll gain access to a range of features, including searching for solutions, asking questions, starting discussions, reporting bugs, requesting new features, and receiving comprehensive support.
+Once registered, you will gain access to a range of features, including searching for solutions, asking questions, starting discussions, reporting bugs, requesting new features, and receiving support.
 
-Registered users also gain early access to the latest cutting-edge versions of our tools, 
+Registered users may also gain early access to the latest versions of our tools, 
 ahead of releases on GitHub, and detailed instructions for setting up the cloud computation package
 (available for download from [**TOOLS**]({% link tools.md %})). 
 
 
 ## Additional Support Resources
 
-Our dedicated support resources extend beyond the forum to ensure you maximize the utility of BRAINCELL:
+Our dedicated support resources:
 
 - **Technical Support Email**: For direct support, contact our technical team any time by pressing this button:
 <span class="about-email" onclick="openEmailClient()">Email</span>.
@@ -35,7 +33,6 @@ and advance through complex setups ([YouTube User Guide](https://www.youtube.com
 user-generated content, from custom scripts to innovative use cases.
 
 We are committed to providing ongoing updates and enhancements based on user feedback. 
-Stay involved to help shape the future development of BRAINCELL!
 
 <script>
 function openEmailClient() {
