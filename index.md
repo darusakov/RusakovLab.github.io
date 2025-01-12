@@ -13,8 +13,8 @@ layout: home
   <!-- ASTRO -->
   <div class="video-container astro" onclick="location.href='{% link astro.md %}'">
     <div class="video-text">
-      <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes based on 3D 
-      two-photon & EM data</p>
+      <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes incorporating their stochastic nanoscopic 
+      morphology</p>
     </div>
     <br>
     <img class="video-fallback1" src="assets/Astro.png" alt="ASTRO simulation preview">
@@ -26,9 +26,9 @@ layout: home
   <!-- BRAINCELL -->
   <div class="video-container braincell" onclick="location.href='{% link braincell.md %}'">
     <div class="video-text">
-      <p><strong><h3>BRAINCELL</h3></strong>visualizing synaptic activation and electrical 
-      dynamics in a CA1 neuron</p>
-      <p>and simulating basket cell axonal release: modeling GABA</p>
+      <p><strong><h3>BRAINCELL</h3></strong> simulates brain cell moprhology and physiology     
+      with their stochastic features, dynamic extracellular environment and inter-cellular </p>
+      <p> signalling, on the scale from nanometers to hunders of microns </p>
     </div>
     <br>
     <div class="braincell-videos">
